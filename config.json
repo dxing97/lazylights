@@ -1,1 +1,589 @@
-# JSON confiuration file for homebridge/homehridge-http
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
+{
+    "bridge":{
+	"name":"Homebridge",
+	"username":"CC:22:3D:E3:CE:30",
+	"port":51826,
+	"pin":"031-45-154"
+    },
+    "platforms":[
+
+    ],
+    "accessories":[
+	{
+	    "accessory": "Http",
+	    "name": "Pipe LED Strip",
+	    "switchHandling": "no",
+	    "http_method": "GET",
+	    "on_url": "http://10.10.1.200/lights/pipelight/on",
+	    "off_url": "http://10.10.1.200/lights/pipelight/off",
+	    "status_url": "http://10.10.1.200/lights/pipelight",
+	    "status_on": "ON",
+	    "status_off": "OFF",
+	    "service": "Light",
+	    "brightnessHandling": "yes",
+	    "brightness_url": "http://10.10.1.200/lights/pipelight/brightness/%b",
+	    "brightnesslvl_url": "http://10.10.1.200/lights/pipelight/brightness",
+	    "sendimmediately": "",
+	    "username": "",
+	    "password": ""
+	}
+    ]
+}
