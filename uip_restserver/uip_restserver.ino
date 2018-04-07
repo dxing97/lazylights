@@ -20,7 +20,7 @@
 
 // **** ETHERNET SETTING ****
 byte mac[] = { 0x54, 0x34, 0x41, 0x30, 0x30, 0x31 };
-IPAddress ip(10,10,1,200);
+IPAddress ip(10,10,10,250);
 EthernetServer server(80);
 
 int pinsetting = HIGH;
@@ -129,9 +129,9 @@ void loop() {
           switch(flags) {
             case getlight:
               if(pinsetting == HIGH)
-                print200OK(client, "ON");
+                print200OK(client, "1");
               else if(pinsetting == LOW)
-                print200OK(client, "OFF");
+                print200OK(client, "0");
               break;
 //            case postlight:
 //              //read the body
@@ -249,4 +249,3 @@ void print200OKint(EthernetClient client, int toprint) {
   client.println();
   client.println(toprint);
 }
-
