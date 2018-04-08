@@ -11,14 +11,19 @@ Requirements:
 
 Steps:
 * Setup Homebridge
-        * Make sure HomeKit apps can talk to Homebridge
+ * Make sure HomeKit apps can talk to Homebridge
 * Setup Arduino
-        * Make sure you can make REST requests to the Arduino and that the Arduino can respond to them
+ * Make sure you can make REST requests to the Arduino and that the Arduino can respond to them
 * Configure Arduino and Homebridge to talk together
-        * Tell Homebridge what routes to use and how to use them
-        * Tell Arduino what routes to respond to and how to act on them
+ * Tell Homebridge what routes to use and how to use them
+ * Tell Arduino what routes to respond to and how to act on them
 
 ## Possible Improvements:
 * Obtain a IP address using DHCP
 * Learn node.js, fork Homebridge-http and add support for more devices on Homebridge-http and on the Arduino
 * Using Ethercard or other ethernet libraries to get a smaller memory footprint (less of a problem on the Arduino Mega, big problem on the Uno and Nano)
+
+## Acknowledgements
+Homebridge-http config is a slightly tweaked example config provided by homebridge-http
+
+The arduino code for implementing a basic REST server is a heavily modified version of the code found [https://www.tweaking4all.com/hardware/arduino/arduino-enc28j60-ethernet/](here, under UIPEthernet.) Great article, highly recommended read if you want to use a ENC28J60-based ethernet devices. 
